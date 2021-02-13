@@ -1,6 +1,6 @@
 
-var CACHE_STATIC_NAME = 'static-v4';
-var CACHE_DYNAMIC_NAME = 'dynamic-v2';
+// var CACHE_STATIC_NAME = 'static-v4';
+// var CACHE_DYNAMIC_NAME = 'dynamic-v2';
 
 // self.addEventListener('install', function(event) {
 //   console.log('[Service Worker] Installing Service Worker ...', event);
@@ -41,17 +41,4 @@ var CACHE_DYNAMIC_NAME = 'dynamic-v2';
 //       })
 //   );
 //   return self.clients.claim();
-// });
-
-// self.addEventListener('fetch', function(event) {
-//   event.respondWith(
-//     caches.match(event.request)
-//       .then(function(response) {
-//         if (response) {
-//           return response;
-//         } else {
-//           return fetch(event.request)          
-//         }
-//       })
-//   );
 // });
