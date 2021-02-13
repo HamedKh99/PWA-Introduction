@@ -1,6 +1,6 @@
 {
-  "name": "Introduction to PWA",
-  "short_name": "PWA",
+  "name": "Instagram as Progressive Web App",
+  "short_name": "PWAGram",
   "icons": [
     {
       "src": "/src/images/icons/app-icon-48x48.png",
@@ -44,7 +44,7 @@
   "orientation": "portrait-primary",
   "background_color": "#fff",
   "theme_color": "#3f51b5",
-  "description": "An Introduction to PWA",
+  "description": "A simple Instagram Clone, implementing a lot of PWA love.",
   "dir": "ltr",
   "lang": "en-US"
 }
